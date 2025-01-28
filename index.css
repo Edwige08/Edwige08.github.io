@@ -1,0 +1,33 @@
+h1 {
+    color: hotpink;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+body {
+    background-color: burlywood;
+}
+
+button {
+    font-size: 2rem;
+    background-color: yellow;
+    transition: .5s ease-in-out; 
+    /*transition de 0,5 secondes*/
+    animation: bounds 1s linear infinite;
+}
+
+button:hover{
+    background-color: pink;
+    /*couleur quand je passe sur le bouton*/
+}
+
+@keyframes bounds {
+    from {
+        scale: .7; 
+    }
+    to {
+        scale: 1;
+    }
+}
